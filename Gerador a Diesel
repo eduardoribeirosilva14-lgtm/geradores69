@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador a Diesel - Portal dos Geradores</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Portal dos Geradores</h1>
+    </header>
+
+    <nav class="abas-nav">
+        <a href="sobre.html" class="aba-btn">Sobre o Portal</a>
+        <a href="eletrico.html" class="aba-btn">Gerador Elétrico</a>
+        <a href="diesel.html" class="aba-btn ativa">Gerador a Diesel</a>
+        <a href="aplicacao.html" class="aba-btn">Quando e Onde Usar?</a>
+        <a href="vendas.html" class="aba-btn">🛒 Catálogo de Vendas</a>
+        <a href="contato.html" class="aba-btn">📞 Contatos</a>
+    </nav>
+
+    <main class="conteudo-principal">
+        <section class="secao-aba">
+            <div class="layout-grid">
+                <div class="col-texto">
+                    <h2>Geradores de Grande Porte e Alta Performance (Diesel)</h2>
+                    <h3>Explicação Detalhada do Funcionamento</h3>
+                    <p>Os geradores a diesel funcionam puramente através do princípio da <strong>ignição por compressão térmica</strong>.</p>
+                    <p>O motor aspira apenas ar atmosférico para dentro da câmara. O pistão sobe comprimindo este ar de forma drástica, reduzindo seu volume em até 22 vezes. Essa compressão eleva a temperatura interna da câmara instantaneamente para mais de 550°C. No ápice da compressão, os bicos injetores pulverizam uma névoa fina de óleo diesel, gerando combustão espontânea.</p>
+                    
+                    <h3>Guia de Ativação e Operação Passo a Passo</h3>
+                    <div class="bloco-instrucoes">
+                        <ol>
+                            <li><strong>Inspeção Geral:</strong> Verifique os níveis de líquido do radiador, óleo lubrificante e combustível diesel.</li>
+                            <li><strong>Disjuntor Principal:</strong> Certifique-se de que o disjuntor geral de saída está na posição <strong>DESLIGADO (OFF)</strong>.</li>
+                            <li><strong>Painel Digital:</strong> Mude o controlador eletrônico para o modo "MANUAL" e aperte o botão verde de partida.</li>
+                            <li><strong>Monitoramento:</strong> Monitore a pressão do óleo, a temperatura e certifique-se de que o visor indica estáveis 60 Hz.</li>
+                            <li><strong>Alimentação:</strong> Gire o disjuntor principal para a posição ligado (ON) para liberar o fluxo de carga.</li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="col-imagem">
+                    <h3>Gerador Estacionário Industrial</h3>
+                    <img src="https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=500&q=80" alt="Gerador Industrial a Diesel" class="foto-gerador">
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
