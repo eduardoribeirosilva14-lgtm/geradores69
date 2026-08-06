@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre - Portal dos Geradores</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <h1 id="boasVindas">Portal dos Geradores</h1>
+    </header>
+
+    <nav class="abas-nav">
+        <a href="sobre.html" class="aba-btn ativa">Sobre o Portal</a>
+        <a href="eletrico.html" class="aba-btn">Gerador Elétrico</a>
+        <a href="diesel.html" class="aba-btn">Gerador a Diesel</a>
+        <a href="aplicacao.html" class="aba-btn">Quando e Onde Usar?</a>
+        <a href="vendas.html" class="aba-btn">🛒 Catálogo de Vendas</a>
+        <a href="contato.html" class="aba-btn">📞 Contatos</a>
+    </nav>
+
+    <main class="conteudo-principal">
+        <section class="secao-aba">
+            <h2>Bem-vindo ao Ecossistema da Energia</h2>
+            <p>O fornecimento estável de energia elétrica é a espinha dorsal da sociedade moderna. Seja para proteger dados cruciais em uma empresa, manter equipamentos médicos funcionando em hospitais ou assegurar o conforto e a segurança do seu lar durante uma tempestade, os geradores desempenham um papel vital.</p>
+            <p>Este portal foi desenvolvido de forma detalhada para servir como um guia técnico completo. Navegando pelas abas superiores, você descobrirá os segredos da engenharia por trás dos geradores elétricos a combustão leve e dos sistemas robustos movidos a diesel.</p>
+            <div class="destaques">
+                <h3>Explore as seções disponíveis:</h3>
+                <ul>
+                    <li><strong>Gerador Elétrico:</strong> Foco em sistemas compactos, mecânica por faísca e operação residencial/portátil.</li>
+                    <li><strong>Gerador a Diesel:</strong> Foco em motores industriais de alta performance operados por compressão térmica extrema.</li>
+                    <li><strong>Quando e Onde Usar:</strong> Guia definitivo para entender as demandas de carga, autonomia e aplicações ideais de cada tecnologia.</li>
+                    <li><strong>🛒 Catálogo de Vendas:</strong> Equipamentos disponíveis com cotações transparentes e especificações detalhadas prontas para o seu projeto.</li>
+                    <li><strong>📞 Contatos:</strong> Canal oficial direto para atendimento personalizado, engenharia de aplicação e suporte comercial.</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        const nome = localStorage.getItem("usuarioNome");
+        if (nome) {
+            document.getElementById("boasVindas").textContent = `Olá, ${nome}! Seja bem-vindo(a) ao Portal Técnico de Soluções Energéticas.`;
+        }
+    </script>
+</body>
+</html>
