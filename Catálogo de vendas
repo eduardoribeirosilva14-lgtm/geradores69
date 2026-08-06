@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo - Portal dos Geradores</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Portal dos Geradores</h1>
+    </header>
+
+    <nav class="abas-nav">
+        <a href="sobre.html" class="aba-btn">Sobre o Portal</a>
+        <a href="eletrico.html" class="aba-btn">Gerador Elétrico</a>
+        <a href="diesel.html" class="aba-btn">Gerador a Diesel</a>
+        <a href="aplicacao.html" class="aba-btn">Quando e Onde Usar?</a>
+        <a href="vendas.html" class="aba-btn ativa">🛒 Catálogo de Vendas</a>
+        <a href="contato.html" class="aba-btn">📞 Contatos</a>
+    </nav>
+
+    <main class="conteudo-principal">
+        <section class="secao-aba">
+            <h2>🛒 Catálogo de Equipamentos e Soluções Energéticas</h2>
+            <p>Selecione o equipamento dimensionado para a sua necessidade. Fale com nossa equipe comercial para formalização.</p>
+
+            <div class="vitrine-produtos">
+                <div class="card-produto">
+                    <img src="https://images.unsplash.com/photo-1620714223084-8fcacc6dfd8d?auto=format&fit=crop&w=400&q=80" alt="Gerador Residencial Portátil">
+                    <div class="produto-info">
+                        <h4>Gerador Portátil PowerSpark 3500</h4>
+                        <div class="produto-specs">
+                            <div><strong>Potência Máxima:</strong> 3.5 kVA (3500W)</div>
+                            <div><strong>Combustível:</strong> Gasolina Comum</div>
+                            <div><strong>Tensão de Saída:</strong> Monofásico 110V/220V</div>
+                        </div>
+                        <div class="preco-tag">R$ 2.890,00</div>
+                        <a href="contato.html" class="btn-comprar">Solicitar via WhatsApp</a>
+                    </div>
+                </div>
+
+                <div class="card-produto">
+                    <img src="https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=400&q=80" alt="Gerador Semi-Industrial">
+                    <div class="produto-info">
+                        <h4>Gerador Cabinada SilentMax 12kVA</h4>
+                        <div class="produto-specs">
+                            <div><strong>Potência Máxima:</strong> 12 kVA</div>
+                            <div><strong>Combustível:</strong> Óleo Diesel S10</div>
+                            <div><strong>Isolamento:</strong> Cabine Silenciada Acústica</div>
+                        </div>
+                        <div class="preco-tag">R$ 18.450,00</div>
+                        <a href="contato.html" class="btn-comprar">Solicitar via WhatsApp</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
