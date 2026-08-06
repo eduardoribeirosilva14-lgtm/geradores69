@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicações - Portal dos Geradores</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Portal dos Geradores</h1>
+    </header>
+
+    <nav class="abas-nav">
+        <a href="sobre.html" class="aba-btn">Sobre o Portal</a>
+        <a href="eletrico.html" class="aba-btn">Gerador Elétrico</a>
+        <a href="diesel.html" class="aba-btn">Gerador a Diesel</a>
+        <a href="aplicacao.html" class="aba-btn ativa">Quando e Onde Usar?</a>
+        <a href="vendas.html" class="aba-btn">🛒 Catálogo de Vendas</a>
+        <a href="contato.html" class="aba-btn">📞 Contatos</a>
+    </nav>
+
+    <main class="conteudo-principal">
+        <section class="secao-aba">
+            <h2>Guia Estratégico: Onde, Quando e Qual Gerador Escolher</h2>
+            <p>A escolha correta depende diretamente do perfil de consumo e do tempo que o maquinário precisará ficar operando.</p>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Característica</th>
+                        <th>Gerador Elétrico Portátil (Gasolina)</th>
+                        <th>Gerador de Grande Porte (Diesel)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Custo de Aquisição</strong></td>
+                        <td>Baixo a Moderado</td>
+                        <td>Alto Investimento Inicial</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Autonomia e Regime</strong></td>
+                        <td>Uso intermitente (Curta duração)</td>
+                        <td>Uso contínuo (Longa duração/Trabalho pesado)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Eficiência de Combustível</strong></td>
+                        <td>Maior consumo por kW/h gerado</td>
+                        <td>Altamente econômico em regime contínuo</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Vida Útil do Motor</strong></td>
+                        <td>Menor (Motores leves de alta rotação)</td>
+                        <td>Altíssima (Blocos industriais de baixa rotação)</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+</body>
+</html>
