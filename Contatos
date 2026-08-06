@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Portal dos Geradores</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Portal dos Geradores</h1>
+    </header>
+
+    <nav class="abas-nav">
+        <a href="sobre.html" class="aba-btn">Sobre o Portal</a>
+        <a href="eletrico.html" class="aba-btn">Gerador Elétrico</a>
+        <a href="diesel.html" class="aba-btn">Gerador a Diesel</a>
+        <a href="aplicacao.html" class="aba-btn">Quando e Onde Usar?</a>
+        <a href="vendas.html" class="aba-btn">🛒 Catálogo de Vendas</a>
+        <a href="contato.html" class="aba-btn ativa">📞 Contatos</a>
+    </nav>
+
+    <main class="conteudo-principal">
+        <section class="secao-aba">
+            <h2>📞 Central de Atendimento e Suporte Técnico</h2>
+            <p>Precisa de auxílio técnico para dimensionar a carga do seu projeto ou deseja fechar a compra de um equipamento de nossa vitrine? Entre em contato direto com a nossa equipe especializada.</p>
+
+            <div class="bloco-contato-urgente">
+                <h3>Suporte para Vendas e Orçamentos</h3>
+                <p>Fale diretamente com os nossos consultores comerciais via ligação ou mensagem de texto:</p>
+                <span class="numero-destaque">(41) 9 9875-9320</span>
+                <p>Atendimento de Segunda a Sexta-feira, das 08:00 às 18:00.</p>
+            </div>
+
+            <h3>Envie uma Mensagem Direta</h3>
+            <form class="formulario-contato" onsubmit="event.preventDefault(); alert('Obrigado! Sua mensagem foi encaminhada à nossa central comercial e será respondida em até 2 horas.'); this.reset();">
+                <label for="c_nome">Seu Nome:</label>
+                <input type="text" id="c_nome" placeholder="Digite seu nome completo" required>
+
+                <label for="c_email">Seu E-mail:</label>
+                <input type="email" id="c_email" placeholder="nome@exemplo.com" required>
+
+                <label for="c_msg">Detalhes do seu Projeto ou Equipamento de Interesse:</label>
+                <textarea id="c_msg" placeholder="Descreva quais aparelhos pretende ligar ou o modelo do gerador escolhido..." required></textarea>
+
+                <button type="submit" class="btn-enviar" style="margin-top: 10px;">Enviar Mensagem</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
