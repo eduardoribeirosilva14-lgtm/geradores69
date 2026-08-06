@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador Elétrico - Portal dos Geradores</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Portal dos Geradores</h1>
+    </header>
+
+    <nav class="abas-nav">
+        <a href="sobre.html" class="aba-btn">Sobre o Portal</a>
+        <a href="eletrico.html" class="aba-btn ativa">Gerador Elétrico</a>
+        <a href="diesel.html" class="aba-btn">Gerador a Diesel</a>
+        <a href="aplicacao.html" class="aba-btn">Quando e Onde Usar?</a>
+        <a href="vendas.html" class="aba-btn">🛒 Catálogo de Vendas</a>
+        <a href="contato.html" class="aba-btn">📞 Contatos</a>
+    </nav>
+
+    <main class="conteudo-principal">
+        <section class="secao-aba">
+            <div class="layout-grid">
+                <div class="col-texto">
+                    <h2>Geradores Elétricos de Combustão Leve (Gasolina)</h2>
+                    <h3>Explicação Detalhada do Funcionamento</h3>
+                    <p>Os geradores elétricos portáteis operam com base na lei da física conhecida como <strong>Indução Eletromagnética de Faraday</strong>. Internamente, o equipamento é dividido em duas partes fundamentais: o motor a combustão e o alternador.</p>
+                    <p>O motor (abastecido geralmente por gasolina) funciona em um ciclo de quatro tempos. Uma faísca gerada pela vela de ignição explode o combustível, empurrando o pistão e convertendo energia química em energia mecânica rotacional através do virabrequim.</p>
+                    
+                    <h3>Guia de Ativação e Operação Passo a Passo</h3>
+                    <div class="bloco-instrucoes">
+                        <ol>
+                            <li><strong>Checklist de Fluidos:</strong> Verifique se o óleo (SAE 10W-30) e a gasolina estão adequados em solo nivelado.</li>
+                            <li><strong>Isolamento Elétrico:</strong> Remova qualquer tomada ou equipamento conectado ao painel antes de acionar.</li>
+                            <li><strong>Combustível e Fluxo:</strong> Gire a torneira mecânica de combustível para a posição aberta ou "ON".</li>
+                            <li><strong>Afogador:</strong> Ajuste a alavanca do afogador (Choke) para a posição "FECHADO".</li>
+                            <li><strong>Partida:</strong> Ative a chave geral (ON) e puxe o manípulo da corda com força e firmeza.</li>
+                            <li><strong>Regulação:</strong> Assim que estabilizar, mova a alavanca do afogador para "ABERTO/RUN" e espere 2 minutos.</li>
+                            <li><strong>Carga:</strong> Plugue os aparelhos de forma gradual, começando pelos motores mais pesados.</li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="col-imagem">
+                    <h3>Design Portátil Típico</h3>
+                    <img src="https://images.unsplash.com/photo-1620714223084-8fcacc6dfd8d?auto=format&fit=crop&w=500&q=80" alt="Gerador Elétrico Portátil" class="foto-gerador">
+                    <div class="aviso-seguranca">
+                        <strong>⚠️ AVISO CRÍTICO DE SEGURANÇA:</strong> Os gases resultantes da queima da gasolina contêm altos níveis de monóxido de carbono (CO). Opere o equipamento sempre em ambientes totalmente abertos.
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
